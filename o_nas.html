@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge.chrome=1"/>
+
+<title>Workout Blog</title>
+
+<meta name="description" content="Blog na temat siłowni,kulturystyki i wszystkiego innego co pomoże Ci osiągnać szczytową formę"/>
+
+<meta name="keywords" content="siłownia,kulturystyka,fitlife,gym,fbw,split,pull,push,dieta,suplementy"/>
+<meta name="author" content="Jakub Przybyłowski">
+<link rel="stylesheet" href="main.css"> <!-- wbudowanie pliku style.css do html-->
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Lacquer|Saira+Stencil+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ultra&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/fontello.css" type="text/css" /> <!-- wbudowanie pliku style.css do html-->
+<!--tciaka wybrana w "google fonts" a nastepnie zlinkowana-->
+
+</head>
+
+<body>
+
+<header>
+
+	<div class="logo"><span style="color:#1c74b2;">Work</span>out Blog</div>
+	<nav class="topnav">
+			
+				<ol>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Artykuły</a>
+					<ul>
+					<li><a href="#">Trening</a></il>
+					<li><a href="#">Dieta</a></il>
+					<li><a href="#">Suplementy</a></il>
+					</ul>
+				</li>
+				<li><a href="#">Ciekawostki</a></li>
+				<li><a href="#">Badania</a></li>
+				<li><a href="#">O nas</a></li>
+				</ol>
+	</nav>
+
+</header>
+
+	<div class="container">
+		<div class="west">
+		
+		<main>
+			<article>
+				<header>
+					<h1>Trochę o nas</h1>
+						
+				</header>
+					<p>Co tak naprawdę kryje się pod nazwą "O nas"???</p></br>
+					
+					<p>Tak to ja.............. nie komentować!!!!</p>
+					<img src="img/o_nas1.jpg">
+					<p class="opis">
+						<p>Cześć!!!</p>
+						<p>Z tej strony Jakub Przybyłowski, mam 24 lata i zawodowo zajmuję sie front-end develeporką.</p>
+						<p>Od ponad 3 lat trenuję na siłowni i bardzo wielu rzeczy nauczyłem się przez te wszystkie lata. Pomysł na tą stronę zrodził się tak naprawdę sam, w pewnym momencie pomyślałem, że gdybym był tak mądry w tej dziedzinie zanim zacząlem ćwiczyć zmeiniłbym wiele rzeczy. Byłbym o wiele dalej jeśli chodzi o budowę sylwetki niż gdy jestem teraz. </p>
+						<p>Więc pomyślalem, że podziele się tutaj moimi uwagami, moimi spotrzeżeniami odnośnie treningów,diety iyp., abyście mogli już zacząć z pewną wiedzą, której ja nie posiadałem,gdy zaczynałem.</p>
+						<p>Blog cały czas się rozwija, więc zapewne wiele błędów na stronie się znajdzie, ale to nie jest aż tak istotne. Istotne w tym blogu jest to, że postaram się wam jak nałatwiejszy sposób opisać całą swoją wiedzę na temat siłowni i bedę robił to naprawdę rzytelnie.</p>
+						<p>To chyba na tyle, do zobaczenia na blogu!!!!!</p>
+					</p>
+						
+				</article>
+			</main>
+		
+		</div>
+		
+		<div class="east">
+			
+			<aside>
+				
+				<nav>
+					<h2>Kategorie<h2>
+					
+						<ul>
+							<li>Trening</li>
+							<li>Dieta</li>
+						</ul>
+						
+					<h2>Powiązane wpisy<h2>
+					
+						<ul>
+							<li>Makroskładniki z czym to się je? Jaka ilości przed, po trenigu i wiele więcej!</li>
+							<li>...</li>
+						</ul>
+						
+						
+					<h2>Archiwum bloga<h2>
+					
+						<ul>
+							<li>Styczeń(...)</li>
+							<li>Luty(...)</li>
+							<li>Marzec(...)</li>
+							<li>Kwiecień(...)</li>
+							<li>Maj(...)</li>
+							<li>Czerwiec(...)</li>
+							<li>Lipiec(...)</li>
+							<li>Śierpień(...)</li>
+							<li>Wrzesień(...)</li>
+							<li>Październik(...)</li>
+							<li>Listopad(...)</li>
+							<li>Grudzień(...)</li>
+						</ul>
+				</nav>
+					<img src="img/reklama.jpg" alt="reklama">
+			
+			</aside>
+		
+		</div>
+	
+	<div style="clear:both;"></div>
+
+	</div>
+
+
+<footer>
+	<div class="socials">
+			<div class="socialdivs">
+				<a href="https://www.facebook.com/kubaprzybylowski" target="_blank" class="socialmedia">
+				<div class="facebook"><i class="icon-facebook-squared"></i></div>
+				</a>
+						<a href="https://www.instagram.com/jacob_przybyl/?hl=pl" target="_blank" class="socialmedia">
+				<div class="instagram"><i class="icon-instagram"></i></div>
+				</a>
+				<div style="clear:both"></div>
+			</div>
+			<div class="info">
+	Wszelkie prawa zastrzeżone &copy; 2017 Dziękuję za wizytę!
+			</div>
+</footer>
+
+
+<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.topnav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.topnav').addClass('sticky');
+	} else {
+		$('.topnav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+
+</script>
+</body>
+
+</html>

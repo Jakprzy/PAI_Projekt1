@@ -1,0 +1,343 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	margin: 0;
+	background-color: #2F3336;
+	margin: #efefef;
+	font-family: 'Lato', sans-serif;
+	font-size:px;
+	color: white;
+}
+
+.logo
+{
+	width:600px;
+	font-size:50px;
+	font-weight:700;/*pogrubienie tciaki*/
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-family: 'Saira Stencil One', cursive;
+	margin-left:auto;
+	margin-right:auto;
+}
+.topnav
+{
+	background-color: #1c74b2;
+	text-align:center;
+}
+.categories
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	text-align: center;
+	color:#fff;
+	padding:0;
+}
+h1
+{
+	color:#1c74b2;
+	font-family: 'Gloria Hallelujah', cursive;;
+	font-size: 44px;
+	font-weight:400;
+	margin-bottom:10px;
+}
+.author
+{
+	display: inline-block;
+	margin-top:10px;
+}
+
+.author 
+{
+ opacity: 0.9;	 /* 10% przezroczystość */
+}
+
+.author a:hover
+{
+ opacity: 1;	 /* 10% przezroczystość */
+}
+figure
+{
+	margin: 5px;
+	padding:0;
+}
+figcaption
+{
+	margin-top:8px;
+	padding:0;
+}
+.entries
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	text-align: center;
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:40px;
+	margin-top:40px;
+}
+#newest
+{
+background-color: #191d21;
+padding-bottom:100px;
+
+}
+.entry
+{
+	background-color: #222930;
+	padding:10px;
+	text-align: justify;
+	margin-top: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 5px;
+	width: 90%;
+	
+}
+.entryimg
+{
+	display:inline-block;
+	margin-left:30px;
+	width:30px;
+}
+
+.entryimg img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.entrytxt
+{
+	
+	display: inline-block;
+	margin-left: 30px;
+	width:700px;
+	font-size:15px;
+}
+.entrytxt a
+{
+	text-decoration:none;
+}
+h2
+{
+padding:5px;
+font-size:20px;
+font-weight:400;
+color: #39a5f1;
+}
+.contact
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	text-align: center;
+	paddint-bottom:70px;
+}
+.contact p
+{
+	margin-bottom:50px;
+}
+.bluebuttom
+{
+	background-color: #1c74b2;
+	padding:15px;
+	color: #efefef;
+	font-size:19px;
+	text-decoration:none;
+	border-radius:5px;
+	min-width:300px;
+}
+
+.bluebuttom:hover
+{
+	color: #196499;
+}
+.socials
+{
+	margin-top:30px;
+	float:left;
+	width:100%;
+	text-align:center;
+	background-color: #191d21;
+	color: white;
+}
+
+.socialdivs
+{
+	width:500px;;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration:none;
+}
+
+.facebook
+{
+	color: white;
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+.facebook:hover
+{
+	
+	background-color: #4668b3;
+}
+
+.instagram
+{
+	color: white;
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+.instagram:hover
+{
+	background-color: #d94348;
+}
+
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding:20px;
+	background-color: #2F3336;	
+}
+
+.container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+.west
+{
+	float:left;
+	width:750px;
+	padding:20px;
+	text-align:justify;
+}
+.east
+{
+	float:left;
+	width:170px;
+	padding:20px;
+}
+.west h1
+{
+	font-size:32px;
+	font-weight:400;
+	color:#39a5f1;
+	margin-bottom:20px;
+}
+
+.east ul
+{
+	padding-left:20px;
+	color:white;
+}
+.east ul>li
+{
+	margin-bottom:5px;
+}
+.east ul>li>a
+{
+ color:white;
+}
+.east img
+{
+	margin-top:15px;
+}
+.sticky
+{
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100;
+}
+ol
+{
+	margin:	0;
+	padding: 0;
+	list-style-type:none;
+	font-size:18px;
+	height:35px;
+	line-height:200%;
+	display: inline-block;
+}
+ol a
+{
+	color:  #ffffff;
+	text-decoration:none;
+	display:block;
+}
+
+ol > li
+{
+	float:left;
+	width:150px;
+	height:40px;
+	border-right:1px dashed #1E90FF;
+}
+ol > li:first-child
+{
+border-left:1px dashed #1E90FF;
+}
+
+ol > li:hover
+{
+	background-color:	#00BFFF;
+}
+ol >li:hover > a
+{
+	color:	#000080;
+}
+ol > li > ul
+{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	height:40px;
+	display:none;
+}
+ol > li:hover > ul
+{
+	display:block;	
+}
+ol > li > ul > li 
+{
+	background-color:#00BFFF;
+	position:relative;
+	z-index:100;
+	border-top:1px dashed #1E90FF;
+	border-bottom:1px dashed #1E90FF;
+}
+ol > li > ul > li:hover
+{
+	background-color:#1E90FF;
+}
+
+ol > li > ul > li:hover >a
+{
+	color:	#000080;
+}
+.opis
+{
+	text-align:justify;
+}
+.dodatek
+{
+	padding:10px;
+	font-family: 'Gloria Hallelujah', cursive;;
+	font-size: 44px;
+	text-align:center;
+}

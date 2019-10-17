@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge.chrome=1"/>
+
+<title>Workout Blog</title>
+
+<meta name="description" content="Blog na temat siłowni,kulturystyki i wszystkiego innego co pomoże Ci osiągnać szczytową formę"/>
+
+<meta name="keywords" content="siłownia,kulturystyka,fitlife,gym,fbw,split,pull,push,dieta,suplementy"/>
+<meta name="author" content="Jakub Przybyłowski">
+<link rel="stylesheet" href="main.css"> <!-- wbudowanie pliku style.css do html-->
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Lacquer|Saira+Stencil+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ultra&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/fontello.css" type="text/css" /> <!-- wbudowanie pliku style.css do html-->
+<!--tciaka wybrana w "google fonts" a nastepnie zlinkowana-->
+
+</head>
+
+<body>
+
+<header>
+
+	<div class="logo"><span style="color:#1c74b2;">Work</span>out Blog</div>
+	<nav class="topnav">
+			
+				<ol>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="#">Artykuły</a>
+					<ul>
+					<li><a href="artykuły_trening.html">Trening</a></il>
+					<li><a href="artykuły_dieta.html">Dieta</a></il>
+					<li><a href="artykuły_suplementy.html">Suplementy</a></il>
+					</ul>
+				</li>
+				<li><a href="#">Ciekawostki</a></li>
+				<li><a href="#">Badania</a></li>
+				<li><a href="o_nas.html" type="_blank">O nas</a></li>
+				</ol>
+	</nav>
+ 
+</header>
+
+<main>
+	<article>
+		<section>
+			<div class="categories">
+				<header>
+				<h1>Artykuły o tematyce treningu !!</h1> <!-- akapit wstępu -->
+				</header>
+			</div>
+				
+		</section>
+		
+		<section id="main_tr">
+			<div class="entries">
+			
+			<div class="entry">
+				<div class="entryimg">
+				<img src="img/trening.jpg">
+				</div>
+				<div class="entrytxt">
+				 <a href="trening_wpis1.html" target="_blank" ><h2>Trening: FWB, SPLIT , czy moze PUSH PULL????</h2> </a>
+				 <p>Dzisaj wyjaśnimy sobie czym tak naprawdę jest trening: SPLIT,FBW oraz PUSH and PULL.<br> Dla kogo takie treningi oraz podamy przykłądowe  treningi, jak mogą wyglądać. 
+				 <br>Zapraszamy do czytania!!!!</p>
+				</div>
+			</div>
+			<div class="dodatek">
+				Więcej artykułów niebawem!!! Stay toned
+			</div>
+		</section>
+		
+		<section>
+			<div class="contact">
+				<header>
+					<h1>Kontakt z autorem</h1>
+					<p>Jeśli masz ochotę podyskutować, a może zaproponować nowy temat wpisu lub nawiązać współpracę reklamową - zapraszamy do kontaktu mailowego :). Staramy systematycznie odpowiadać na maile, ale prosimy o wyrozumiałość. </p> <!-- akapit wstępu -->
+				</header>
+				<a href="#" class="bluebuttom">Kontakt mailowy</a>
+			</div>
+		</section>
+	</article>
+</main>
+
+<footer>
+	<div class="socials">
+			<div class="socialdivs">
+				<a href="https://www.facebook.com/kubaprzybylowski" target="_blank" class="socialmedia">
+				<div class="facebook"><i class="icon-facebook-squared"></i></div>
+				</a>
+						<a href="https://www.instagram.com/jacob_przybyl/?hl=pl" target="_blank" class="socialmedia">
+				<div class="instagram"><i class="icon-instagram"></i></div>
+				</a>
+				<div style="clear:both"></div>
+			</div>
+			<div class="info">
+	Wszelkie prawa zastrzeżone &copy; 2017 Dziękuję za wizytę!
+			</div>
+</footer>
+
+
+	<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.topnav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.topnav').addClass('sticky');
+	} else {
+		$('.topnav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+
+</script>
+
+</body>
+
+</html>
